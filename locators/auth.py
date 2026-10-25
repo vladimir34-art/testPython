@@ -9,7 +9,7 @@ class AuthLocators:
 class InventoryLocators:
     ADD_TO_CARTS = (By.CSS_SELECTOR, ".btn_primary.btn_inventory")
     CART_LINK = (By.CSS_SELECTOR, ".shopping_cart_container")
-    CART_BADGE = (By.CSS_SELECTOR, ".shopping_cart_badge") 
+    CART_BADGE = (By.CSS_SELECTOR, ".shopping_cart_badge")
 
 class CartLocators:
     ITEMS = (By.CLASS_NAME, "cart_item")
@@ -24,4 +24,3 @@ class CheckoutLocators:
     FINISH_BUTTON = (By.CSS_SELECTOR, ".btn_action.cart_button")
     COMPLETE_HEADER = (By.CSS_SELECTOR, ".complete-header")
     COMPLETE_TEXT = (By.CSS_SELECTOR, ".complete-text")
-

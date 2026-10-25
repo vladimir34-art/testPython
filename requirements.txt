@@ -2,3 +2,8 @@ selenium>=4.25.0
 pytest>=8.3.0
 webdriver-manager>=4.0.0
 pytest-html>=4.1.1
+
+pytest
+selenium
+allure-pytest
+allure-python-commons
